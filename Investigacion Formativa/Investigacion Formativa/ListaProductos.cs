@@ -11,7 +11,7 @@ namespace Investigacion_Formativa
         public List<Producto> ListProductos { set; get; }
         public ListaProductos()
         {
-            ListProductos = new List<Producto>();
+            ListProductos  =  new List<Producto>();
         }
         public void AgregarProduct(Producto producto)
         {
